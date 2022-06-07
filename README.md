@@ -6,6 +6,10 @@
 - Drone:  CAD model has been finalized and printed, as shown below. RF24 modules have been tested at distance, and motors and batteries have been mounted.
 - Controller: PCB design is underway using multiplexers to extend ESP32 capabilities to more GPIO pins. RF24 module is being integrated, as well as battery circuitry.
 
+
+### Drone Model
+<img src="Drone/CAD/total.png">
+
 ## Overview
 This is an ESP32-based from-scratch Drone project, meant to help learn the fundamentals of CAD, PCB design, control system software, as well as utilize the C++ programming language for high levels of multithreaded efficiency and performance. The Drone is built on a 4S cell system (14.8V), with 2200Kv motors (I would recommend going with a lower Kv value if you are reproducing this project, as that will be more efficient; I used what was on hand), and 10" propellers. It is designed to carry its own weight as well as a payload of ~1kg (2.2lb). 
 
